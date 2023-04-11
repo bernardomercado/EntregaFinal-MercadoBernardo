@@ -1,3 +1,23 @@
+.navegador{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  align-items: center;
+  background-color: rgb(236, 178, 69);
+}
+
+.navegador-botones{
+  display: flex;
+  column-gap: 10px;
+}
+
+.navegador-botones button{
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(189, 123, 0);
+}
+
 .App {
   text-align: center;
 }
