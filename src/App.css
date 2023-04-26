@@ -1,23 +1,39 @@
-.navegador{
+.navegador {
   display: flex;
   justify-content: space-between;
-  padding: 10px 40px;
   align-items: center;
-  background-color: rgb(236, 178, 69);
+  background-color: #f2f2f2;
+  padding: 1rem;
 }
 
-.navegador-botones{
+.navegador h3 {
+  margin: 0;
+}
+
+.navegador-botones {
   display: flex;
-  column-gap: 10px;
+  gap: 1rem;
 }
 
-.navegador-botones button{
-  padding: 10px 30px;
-  border-radius: 5px;
+.Option, .ActiveOption {
   border: none;
-  background-color: rgb(189, 123, 0);
+  background-color: transparent;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
 }
 
+.Option:hover {
+  background-color: #ddd;
+}
+
+.ActiveOption {
+  background-color: #333;
+  color: #fff;
+}
 .App {
   text-align: center;
 }
