@@ -4,10 +4,21 @@
   align-items: center;
   background-color: #f2f2f2;
   padding: 1rem;
+  margin-bottom: 20px;
 }
 
-.navegador h3 {
+.navegador a{
+  text-decoration: none;
+}
+
+.navegador a h3 {
   margin: 0;
+  color: #333;
+
+}
+
+.navegador a h3:hover{
+  color: #494949;
 }
 
 .navegador-botones {

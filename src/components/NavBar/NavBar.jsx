@@ -1,6 +1,6 @@
 import React from 'react'
-import { CartGidget } from '../CartGidget/CartGidget'
 import { Link, NavLink } from 'react-router-dom'
+import CartWidget from '../CartWidget/CartWidget'
 
 export const NavBar = () => {
   return (
@@ -13,7 +13,7 @@ export const NavBar = () => {
         <NavLink to={`/category/buzo`} className={({ isActive}) => isActive ? 'ActiveOption' :  'Option'}>Buzos</NavLink>
         <NavLink to={`/category/short`} className={({ isActive}) => isActive ? 'ActiveOption' :  'Option'}>Shorts</NavLink>
       </div>
-      <CartGidget/>
+      <CartWidget/>
     </nav>
   )
 }

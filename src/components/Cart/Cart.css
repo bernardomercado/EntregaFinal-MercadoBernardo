@@ -1,0 +1,24 @@
+.no-hay-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-hay-productos .Option{
+    width: 80%;
+}
+
+.limpiar-carrito-checkout{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.limpiar-carrito-checkout .Button{
+    margin: auto;
+}
+
+.limpiar-carrito-checkout .Option{
+    margin: auto;
+    width: 80%;
+}
